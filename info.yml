@@ -23,7 +23,7 @@ configuration:
         
     movie_template:
         type: template
-        fields: context, iteration, [name], [version]
+        fields: context, iteration, [name], [version], *
         description: The location where the output quicktime will be written to. The two fields
                      iteration and optionally name will be populated. Iteration is an integer 
                      number which will be automatically calculated based on the existing files 
